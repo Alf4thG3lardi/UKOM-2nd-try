@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
           </div>
           <button type="button" class="btn btn-light text-center">
-            <i class='bi bi-telephone text-dark pe-2'></i>Button
+            <i class='bi bi-telephone text-dark pe-2'></i>Contact
           </button>
         </div>
       </nav>
