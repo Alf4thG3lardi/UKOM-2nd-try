@@ -1,0 +1,15 @@
+.container {
+    min-height: 50vh;
+}
+
+.row > .col-md-5 > img {
+    height: 75vh;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid white;
+
+}
