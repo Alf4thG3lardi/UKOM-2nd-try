@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png';
 
 const About = () => {
   return (
-    <div class='container'>
+    <div class='container '>
         <div class='row align-items-center'>
             <div class='col-md-7 text-white'>
                 <h2 class='display-3'>About Us</h2>

@@ -13,7 +13,7 @@ const Intro = () => {
         </div>  
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src={bg} class="d-block w-100"  alt="first img"/>
+            <img src={bg} class="d-block w-100 introimg"  alt="first img"/>
             <div class="carousel-caption text-start text-white">
               <p class='fs-1'>First slide label</p>
               <p class='fs-5'>Some representative placeholder content for the first slide.</p>
@@ -21,7 +21,7 @@ const Intro = () => {
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src={bg} class="d-block w-100" alt="second img"/>
+            <img src={bg} class="d-block w-100 introimg" alt="second img"/>
             <div class="carousel-caption text-center text-white">
               <p class='fs-1'>Second slide label</p>
               <p class='fs-5'>Some representative placeholder content for the second slide.</p>
@@ -29,7 +29,7 @@ const Intro = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={bg} class="d-block w-100" alt="third img"/>
+            <img src={bg} class="d-block w-100 introimg" alt="third img"/>
             <div class="carousel-caption text-end text-white">
               <p class='fs-1'>Third slide label</p>
               <p class='fs-5'>Some representative placeholder content for the third slide.</p>
