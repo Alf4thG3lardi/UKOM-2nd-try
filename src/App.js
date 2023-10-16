@@ -9,6 +9,7 @@ import Expert from './Home page/expert/expert';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Portofolliopage from './Portofolio page/portofolliopage';
 import Contact from './Portofolio page/contact/contact';
+import Review from './Home page/review/review';
 
 function App() {
   return (
