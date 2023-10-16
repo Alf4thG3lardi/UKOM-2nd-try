@@ -6,18 +6,20 @@ import Form from './Form-Client/form-clients';
 import Footer from './Home page/footer/footer';
 import Portofolio from './Home page/portofolio/portofolio';
 import Expert from './Home page/expert/expert';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Portofolliopage from './Portofolio page/portofolliopage';
+import Contact from './Portofolio page/contact/contact';
 
 function App() {
   return (
     <div className="App bg-dark">
-      <Navbar/>
-      <Intro/>
-      <Expert/>
-      <Faq/>
-      <About/>
-      <Portofolio/>
-      <Form/>
-      <Footer/> 
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<><Navbar/> <Intro/> <Expert/> <Faq/> <About/> <Portofolio/> <Form/> <Footer/> </>}></Route>
+          <Route path='/portofolio' element={<><Navbar/><Portofolliopage/><Contact/><Footer/></>}></Route>
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }

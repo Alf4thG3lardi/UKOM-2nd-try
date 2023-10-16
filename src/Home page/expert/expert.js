@@ -1,55 +1,38 @@
-import React from "react";
-import checklist from "../../assets/checklist icon.png";
-import responsif from '../../assets/responsif.png';
-import desain from '../../assets/desain.png';
-import konten from '../../assets/konten.png';
+import React from 'react';
+import checklist from '../../assets/checklist icon.png';
 
 const Expert = () => {
   return (
-    <div class="container d-flex align-items-center my-5" style={{ height: "100vh" }}>
-      <div class="mx-auto">
-        <p class="h1 text-secondary text-center mt-5 mb-2">Expertise</p>
-        <h5 className="fst-normal text-center mb-5" style={{ color:'blue', fontSize:'25px'}}>
-          <span className="bg-white px-3" style={{ background:'rgb(220,220,220)' }}>Situs Web Ideal yang Anda Butuhkan ada di Kami!</span>
-        </h5>
-        <div class="d-flex flex-row justify-content-center">
-          <div class="border border-primary border-2 rounded-2 me-3 ps-3 pt-4" style={{ width:'25rem', height:'27rem' }}>
-            <center>
-            <h5 className="text-white">
-              <img className="me-2" src={checklist} alt="" style={{ width: "37px"}} />
-              Web Responsif
-            </h5>
-            <img className="my-4" src={responsif} alt="" style={{ width:'200px'}}/>
-            <p className="text-white me-2">Kami membangun situs web responsif dengan layout yang mampu menyesuaikan diri baik dilihat di komputer, mobile, ataupun tablet.</p>
-            </center>
-          </div>
+    <div class='container d-flex align-items-center my-5' style={{height:'100vh'}}>
+        <div class='mx-auto'>
+            <p class='h1 text-secondary text-center mt-5 mb-2'>Expertise</p>
+            <p className='h5 text-white text-center mb-5'>Keahlian yang Kami Miliki Untuk Penuhi Kebutuhan Anda!</p>
+            <div class='d-flex flex-row justify-content-center'>
+                <div class="border border-primary border-2 rounded-2 me-3" style={{ width:'23rem', height:'15rem', }}>
+                  <img className='ms-2 mt-2' src={checklist} alt="" style={{ width:'37px'}}/>
+                </div>
+                <div class="border border-primary border-2 rounded-2" style={{ width:'23rem', height:'15rem', }}>
+                  <img className='ms-2 mt-2' src={checklist} alt="" style={{ width:'37px'}}/>
+                </div>
+                <div class="border border-primary border-2 rounded-2 ms-3" style={{ width:'23rem', height:'15rem', }}>
+                  <img className='ms-2 mt-2' src={checklist} alt="" style={{ width:'37px'}}/>
+                </div>
+            </div>
 
-          <div class="border border-primary border-2 rounded-2 ps-3 pt-4" style={{ width:'25rem', height:'27rem' }}>
-            <center>
-            <h5 className="text-white">
-              <img className="me-2" src={checklist} alt="" style={{ width: "37px"}} />
-              Desain yang Mengagetkan
-            </h5>
-            <img className="my-4" src={desain} alt="" style={{ width:'200px' }}/>
-            <p className="text-white me-2">Kami memiliki tim web yang akan menciptakan antar muka yang menakjubkan sehingga pengunjung akan betah melihat website anda!</p>
-            </center>
-          </div>
-
-          <div class="border border-primary border-2 rounded-2 ms-3 ps-3 pt-4" style={{ width:'25rem', height:'27rem' }}>
-            <center>
-            <h5 className="text-white">
-              <img className="me-2" src={checklist} alt="" style={{ width: "37px"}} />
-              Konten yang Menarik
-            </h5>
-            <img src={konten} alt="" style={{ width:'250px' }}/>
-            <p className="text-white me-2">Tim web kami siap sajikan konten menarik untuk website anda dengan ilustrasi-ilustrasi yang bikin geleng-geleng kepala karena takjub.</p>
-            </center>
-          </div>
-
+            <div class='d-flex flex-row justify-content-center my-4'>
+                <div class="border border-primary border-2 rounded-2 me-3" style={{ width:'23rem', height:'15rem', }}>
+                  <img className='ms-2 mt-2' src={checklist} alt="" style={{ width:'37px'}}/>
+                </div>
+                <div class="border border-primary border-2 rounded-2" style={{ width:'23rem', height:'15rem', }}>
+                  <img className='ms-2 mt-2' src={checklist} alt="" style={{ width:'37px'}}/>
+                </div>
+                <div class="border border-primary border-2 rounded-2 ms-3" style={{ width:'23rem', height:'15rem', }}>
+                  <img className='ms-2 mt-2' src={checklist} alt="" style={{ width:'37px'}}/>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Expert;
+export default Expert
