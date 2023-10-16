@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
-import logo from '../../assets/logo.png';
+import aboutKontak from '../../assets/aboutkontak.png';
+import aboutTim from '../../assets/abouttim.png';
 
 
 const About = () => {
@@ -14,13 +15,13 @@ const About = () => {
             </div>
 
             <div class='col-md-5 mx-auto'>
-                <img src={logo}  />
+                <img src={aboutKontak} style={{ width:'400px', height:'400px' }} />
             </div>
         </div>
         <hr class='hr' />
         <div class='row align-items-center'>
             <div class='col-md-5 mx-auto'>
-                <img src={logo}  />
+                <img src={aboutTim} style={{ width:'400px', height:'400px' }}/>
             </div>
             <div class='col-md-7 text-white text-end'>
                 <h2 class='display-3'>About Us</h2>

@@ -4,7 +4,7 @@ import orang from '../../assets/orang.jpg';
 
 const review = () => {
   return (
-    <div class="container-md mt-5 card">
+    <div class="container-md my-5 card">
   <div class="card-header">
   <img src= {orang} alt="" style={{width:'40px'}}/>
   Username Pelanggan

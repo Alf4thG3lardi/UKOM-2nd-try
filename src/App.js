@@ -6,6 +6,7 @@ import Form from './Form-Client/form-clients';
 import Footer from './Home page/footer/footer';
 import Portofolio from './Home page/portofolio/portofolio';
 import Expert from './Home page/expert/expert';
+import Keunggulan from './Home page/keunggulan/keunggulan';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Portofolliopage from './Portofolio page/portofolliopage';
 import Contact from './Portofolio page/contact/contact';
@@ -16,7 +17,7 @@ function App() {
     <div className="App bg-dark">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<><Navbar/> <Intro/> <Expert/> <Faq/> <About/> <Portofolio/> <Form/> <Review/> <Footer/> </>}></Route>
+          <Route path='/' element={<><Navbar/> <Intro/> <Expert/> <Keunggulan/> <Faq/> <About/> <Portofolio/> <Form/> <Review/> <Footer/> </>}></Route>
           <Route path='/portofolio' element={<><Navbar/><Portofolliopage/><Contact/><Footer/></>}></Route>
         </Routes>
       </BrowserRouter>
