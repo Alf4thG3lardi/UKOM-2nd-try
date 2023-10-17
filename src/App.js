@@ -17,7 +17,7 @@ function App() {
     <div className="App bg-dark">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<><Navbar/> <Intro/> <Expert/> <Keunggulan/> <Faq/> <About/> <Portofolio/> <Form/> <Review/> <Footer/> </>}></Route>
+          <Route path='/' element={<><Navbar/> <Intro/> <Expert/> <Keunggulan/> <Faq/> <About/> <Portofolio/> <Review/> <Form/> <Footer/> </>}></Route>
           <Route path='/portofolio' element={<><Navbar/><Portofolliopage/><Contact/><Footer/></>}></Route>
         </Routes>
       </BrowserRouter>
