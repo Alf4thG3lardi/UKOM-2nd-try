@@ -15,9 +15,11 @@ const Intro = () => {
           <div class="carousel-item active" data-bs-interval="10000">
             <img src={bg} class="d-block w-100 introimg"  alt="first img"/>
             <div class="carousel-caption text-start text-white">
-              <p class='fs-1'>First slide label</p>
-              <p class='fs-5'>Some representative placeholder content for the first slide.</p>
-              <button type="button" class="btn btn-primary">Learn more</button>
+              <h2 class='fs-1' style={{ fontSize:"400px" }}>Jasa Pembuatan Website</h2>
+              <h4 class='fs-5'>Kami Adalah Pilihan Terbaik Anda!</h4>
+              <p>Platform dengan pembuatan website yang cepat dan terpercaya. <br /> Anda bisa stalking website kami untuk informasi lebih lengkap!
+              </p>
+              {/* <button type="button" class="btn btn-primary">Learn more</button> */}
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">

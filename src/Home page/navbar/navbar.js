@@ -27,38 +27,31 @@ const Navbar = () => {
                 <a style={{ background: "#364a28", border:'none' }} class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                   Features
                 </a>
-
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li class="dropdown">
-                      <a class="dropdown-item dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
-                        Web Instan
-                      </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                            <li>
-                              <a class='dropdown-item' href="#">Arsitek</a>
-                            </li>
-                            <li>
-                              <a class='dropdown-item' href="#">Bisnis Online</a>
-                            </li>
-                          </ul>
-                    </li>
-
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <Link class="dropdown-item" to="/web/instan" style={{ cursor:'pointer' }}>
+                      Web Instan
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item"  to="/web/custom" style={{ cursor:'pointer' }}>
                       Web Custom
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
+
               <Link class="nav-link text-light" to="/portofolio">
                 Portofolio
               </Link>
-              <a class="nav-link text-light" href="#">
+              <Link class="nav-link text-light" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </div>
           </div>
-          <button type="button" class="btn btn-light text-center" style={{ background: "#c4cfd4" }}>
+          <button type="button" class="btn btn-light text-center" style={{ background: "#c4cfd4" }} onClick={() => {
+            document.getElementById("kontak").scrollIntoView({ behavior: "smooth" });
+          }}>
             <i class="bi bi-telephone text-dark pe-2"></i>Contact
           </button>
         </div>

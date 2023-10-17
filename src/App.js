@@ -11,6 +11,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Portofolliopage from './Portofolio page/portofolliopage';
 import Contact from './Portofolio page/contact/contact';
 import Review from './Home page/review/review';
+import Isi from './Features/Web Instan/isi/isi';
+import Konten from './Features/Web Custom/konten/konten';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Routes>
           <Route path='/' element={<><Navbar/> <Intro/> <Expert/> <Keunggulan/> <Faq/> <About/> <Portofolio/> <Review/> <Form/> <Footer/> </>}></Route>
           <Route path='/portofolio' element={<><Navbar/><Portofolliopage/><Contact/><Footer/></>}></Route>
+          <Route path='/web/instan' element={<><Navbar/><Isi/><Footer/></>}></Route>
+          <Route path='/web/custom' element={<><Navbar/><Konten/><Footer/></>}></Route>
         </Routes>
       </BrowserRouter>
       
