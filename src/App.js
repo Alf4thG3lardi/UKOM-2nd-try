@@ -13,6 +13,7 @@ import Contact from './Portofolio page/contact/contact';
 import Review from './Home page/review/review';
 import Isi from './Features/Web Instan/isi/isi';
 import Konten from './Features/Web Custom/konten/konten';
+import Pricing from './Home page/pricing/pricing';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/portofolio' element={<><Navbar/><Portofolliopage/><Contact/><Footer/></>}></Route>
           <Route path='/web/instan' element={<><Navbar/><Isi/><Footer/></>}></Route>
           <Route path='/web/custom' element={<><Navbar/><Konten/><Footer/></>}></Route>
+          <Route path='/pricing' element={<><Navbar/><Pricing/><Footer/></>}></Route>
         </Routes>
       </BrowserRouter>
       
