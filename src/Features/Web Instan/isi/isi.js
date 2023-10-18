@@ -48,7 +48,7 @@ const Isi = () => {
 
       <div id="pengertian" class="row align-items-center border-bottom" style={{ marginTop: "70px", marginBottom: "70px" }}>
         <div class="col-md-7 mx-auto my-5">
-          <img src={logo} style={{ width: "400px", height: "400px" }} />
+          <img src={logo} style={{ width: "600px", height: "600px" }} />
         </div>
         <div class="col-md-5 text-white text-start">
           <p class="display-5" style={{ fontFamily: "Poppins", fontSize: "50px", fontWeight: "400" }}>
@@ -58,7 +58,7 @@ const Isi = () => {
             Website Instan
           </p>
           <p class="lead" style={{ fontFamily: "Poppins", fontSize: "20px" }}>
-            Situs web instan adalah suatu website yang dibuat <br /> menggunakan template yang sudah ada. Anda dapat memilih tema yang Anda suka. Jika Anda bingung menentukan <br /> bagaimana konsep website yang ingin Anda wujudkan. <br /> Silahkan hubungi Kami dan tanyakan semua pertanyaan hingga rekomendasi dan solusi dari Kami.
+            Situs web instan adalah suatu website yang dibuat menggunakan template yang sudah ada. Anda dapat memilih tema yang Anda suka. Akan ada banyak template yang bisa anda pilih. Jika Anda bingung menentukan bagaimana konsep website yang ingin Anda wujudkan. Atau fitur-fitur apa saja yang akan Anda sertakan dalam website Anda. Silahkan hubungi Kami dan tanyakan semua pertanyaan untuk Kami dan Kami akan berikan rekomendasi dan solusi yang terbaik untuk Anda. Dapatkan hal-hal yang luar biasa dari Kami. Kami tunggu kehadiran Anda di notifikasi. Sampai Jumpa.
           </p>
         </div>
       </div>

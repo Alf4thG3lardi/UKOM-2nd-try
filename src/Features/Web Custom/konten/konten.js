@@ -58,7 +58,7 @@ const Konten = () => {
             Website Custom
           </p>
           <p class="lead" style={{ fontFamily: "Poppins", fontSize: "20px" }}>
-            Situs web custom adalah suatu website yang diciptakan <br /> sesuai dengan keinginan Anda. Tidak ada template yang akan <br /> membatasi Anda untuk mengkreasikan bagaimana website <br /> yang ingin Anda wujudkan. Websitor menawarkan layanan <br /> pembuatan situs website custom. Jika Anda bingung menentukan <br /> bagaimana konsep website yang ingin Anda wujudkan. Silahkan <br /> hubungi tanyakan semua pertanyaan hingga rekomendasi dan <br /> solusi dari kami.
+            Situs web custom adalah suatu website yang diciptakan sesuai dengan keinginan Anda. Tidak ada template yang akan membatasi Anda untuk mengkreasikan bagaimana website yang ingin Anda wujudkan. Websitor menawarkan layanan pembuatan situs website custom dengan fitur-fitur yang dapat Anda tentukan tanpa batas apapun. Jika Anda bingung menentukan bagaimana konsep website yang ingin Anda wujudkan. Silahkan hubungi Kami dan tanyakan semua pertanyaan untuk Kami dan Kami akan berikan rekomendasi dan solusi yang terbaik untuk Anda. Dapatkan hal-hal yang luar biasa dari Kami. Kami tunggu kehadiran Anda di notifikasi. Sampai Jumpa.
           </p>
         </div>
       </div>
