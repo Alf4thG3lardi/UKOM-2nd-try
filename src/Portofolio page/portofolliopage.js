@@ -13,7 +13,7 @@ const Portofolliopage = () => {
         </p>
         <div class='row mt-5 mx-auto' style={{ marginBottom:"70px" }}>
             <div class='col-md-6'>
-              <div class="card text-white" style={{width:'90%', background:"#5c9250"}}>
+              <div class="card text-white" style={{width:'90%', background:"#7893D8"}}>
                 <div class="card-header" >
                   Web name
                 </div>
@@ -26,7 +26,7 @@ const Portofolliopage = () => {
               </div>
             </div>
             <div class='col-md-6'>
-              <div class="card text-white" style={{width:'90%', background:"#5c9250"}}>
+              <div class="card text-white" style={{width:'90%', background:"#7893D8"}}>
                 <div class="card-header" >
                   Web name
                 </div>
@@ -42,7 +42,7 @@ const Portofolliopage = () => {
 
         <div class='row my-5 mx-auto'>
             <div class='col-md-6'>
-              <div class="card text-white" style={{width:'90%', background:"#5c9250"}}>
+              <div class="card text-white" style={{width:'90%', background:"#7893D8"}}>
                 <div class="card-header" >
                   Web name
                 </div>
@@ -55,7 +55,7 @@ const Portofolliopage = () => {
               </div>
             </div>
             <div class='col-md-6'>
-              <div class="card text-white" style={{width:'90%', background:"#5c9250"}}>
+              <div class="card text-white" style={{width:'90%', background:"#7893D8"}}>
                 <div class="card-header" >
                   Web name
                 </div>
