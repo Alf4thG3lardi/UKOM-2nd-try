@@ -15,8 +15,8 @@ const Intro = () => {
           <div class="carousel-item active" data-bs-interval="10000">
             <img src={bg} class="d-block w-100 introimg"  alt="first img"/>
             <div class="carousel-caption text-start text-white">
-              <h2 class='fs-1' style={{ fontSize:"400px" }}>Jasa Pembuatan Website</h2>
-              <h4 class='fs-5'>Kami Adalah Pilihan Terbaik Anda!</h4>
+              <h2 style={{fontFamily:"Poppins", fontSize:"70px", fontWeight:"900", paddingTop:"10px"}}>Jasa Pembuatan Website</h2>
+              <h4 style={{fontFamily:"Roboto", fontSize:"30px", fontWeight:"400"}}>Kami Adalah Pilihan yang Tepat dan Terbaik Anda!</h4>
               <p>Platform dengan pembuatan website yang cepat dan terpercaya. <br /> Anda bisa stalking website kami untuk informasi lebih lengkap!
               </p>
               {/* <button type="button" class="btn btn-primary">Learn more</button> */}

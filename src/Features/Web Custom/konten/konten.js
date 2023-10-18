@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../assets/logo.png";
+import logo from '../../../assets/logo.png'
 import sekolah from "../../../assets/sekolah.jpg";
 import lowongan from "../../../assets/lowongan kerja.jpg";
 import masjid from "../../../assets/masjid.jpg";
@@ -7,10 +7,10 @@ import masjid from "../../../assets/masjid.jpg";
 const Konten = () => {
   return (
     <div class="container py-5">
-      <div class="row" style={{ marginTop: "130px" }}>
-        <p class="text-white text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "70px" }}>
+      <div class="row" style={{ marginTop: "110px" }}>
+        <p class="text-white text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "90px" }}>
           Website{" "}
-          <span class="text-secondary text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "70px" }}>
+          <span class="text-success text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "90px" }}>
             Custom
           </span>
         </p>
@@ -48,46 +48,45 @@ const Konten = () => {
 
       <div id="pengertian" class="row align-items-center border-bottom" style={{ marginTop: "70px", marginBottom: "70px" }}>
         <div class="col-md-7 mx-auto my-5">
-          <img src={logo} style={{ width: "400px", height: "400px" }} />
+          <img src={logo} style={{ width: "600px", height: "600px" }} />
         </div>
         <div class="col-md-5 text-white text-start">
-          <p class="display-5" style={{ fontFamily: "Poppins", fontSize: "35px", fontWeight: "400" }}>
+          <p class="display-5" style={{ fontFamily: "Poppins", fontSize: "50px", fontWeight: "400" }}>
             Jasa Pembuatan
           </p>
-          <p class="display-5" style={{ fontFamily: "Poppins", fontSize: "35px", fontWeight: "400" }}>
+          <p class="display-5" style={{ fontFamily: "Poppins", fontSize: "50px", fontWeight: "400" }}>
             Website Custom
           </p>
-          <p class="lead" style={{ fontFamily: "Poppins", fontSize: "17px" }}>
-            Situs web custom adalah suatu website yang diciptakan sesuai dengan keinginan Anda. Tidak ada template yang akan membatasi Anda untuk mengkreasikan bagaimana website yang ingin Anda wujudkan. Websitor menawarkan layanan
-            pembuatan situs website custom. Jika Anda bingung menentukan bagimana konsep website yang ingin Anda wujudkan. Silahkan hubungi tanyakan semua pertanyaan hingga rekomendasi dan solusi dari kami.
+          <p class="lead" style={{ fontFamily: "Poppins", fontSize: "20px" }}>
+            Situs web custom adalah suatu website yang diciptakan <br /> sesuai dengan keinginan Anda. Tidak ada template yang akan <br /> membatasi Anda untuk mengkreasikan bagaimana website <br /> yang ingin Anda wujudkan. Websitor menawarkan layanan <br /> pembuatan situs website custom. Jika Anda bingung menentukan <br /> bagaimana konsep website yang ingin Anda wujudkan. Silahkan <br /> hubungi tanyakan semua pertanyaan hingga rekomendasi dan <br /> solusi dari kami.
           </p>
         </div>
       </div>
 
       <div id="fitur" class="container-fluid text-center text-white py-5 border-bottom" style={{ height: "fit-content", fontFamily: "Roboto", marginTop: "70px", marginBottom: "100px" }}>
-        <p class="h1 mb-5 text-center">Fitur Website Custom</p>
+        <p class="h1 mb-5 text-center" style={{ fontSize:"50px" }}>Fitur Website Custom</p>
         <div class="row">
           <div class="col-md-4 mx-auto" style={{ marginBottom: "70px" }}>
-            <p class="h4 text-secondary">
+            <p class="h2 text-primary">
               <span class="mx-2"></span>Web Responsif
             </p>
-            <p>
+            <p style={{ fontSize:"20px" }}>
               Situs web responsif adalah <br /> situs web yang dapat menyesuaikan diri <br /> dengan perangkat yang digunakan yaitu <br /> saat sedang memakai komputer, <br /> mobile, maupun tablet.
             </p>
           </div>
           <div class="col-md-4 mx-auto">
-            <p class="h4 text-secondary">
-              <span class="mx-2"></span>Konten Menarik
+            <p class="h2 text-primary">
+              <span class="mx-2"></span>Isi Menarik
             </p>
-            <p>
+            <p style={{ fontSize:"20px" }}>
               Setiap halaman di dalam web Anda akan <br /> kami kreasikan dengan menarik agar dapat <br /> memikat perhatian pengunjung <br /> dan bikin pengunjung betah <br /> melihat web Anda.
             </p>
           </div>
           <div class="col-md-4 mx-auto">
-            <p class="h4 text-secondary">
+            <p class="h2 text-primary">
               <span class="mx-2"></span>Kontak Informasi
             </p>
-            <p>
+            <p style={{ fontSize:"20px" }}>
               Setiap halaman akan kami tampilkan <br /> kontak informasi untuk memudahkan pengunjung <br /> menghubungi Anda. Sehingga kesempatan <br /> menarik pengunjung melakukan transaksi <br /> akan semakin besar.
             </p>
           </div>
@@ -95,7 +94,7 @@ const Konten = () => {
       </div>
 
       <div id="pilihan" class="row align-items-center" style={{ marginTop: "70px", marginRight: "70px" }}>
-        <h1 className="text-secondary text-left mb-5" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
+        <h1 className="text-success text-left mb-5" style={{ fontFamily: "Poppins", fontWeight: "600", fontSize:"60px"}}>
           Web yang Bisa Jadi Pilihanmu!
         </h1>
       </div>
@@ -108,7 +107,7 @@ const Konten = () => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src={lowongan} class="d-block w-100 mx-auto" />
+            <img src={sekolah} class="d-block w-100 mx-auto" />
             <div class="d-none d-md-block" style={{ marginTop: "70px" }}>
               <h5 className="text-white" style={{ fontSize: "30px" }}>
                 Web Portal Lowongan Pekerjaan
@@ -119,7 +118,7 @@ const Konten = () => {
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src={sekolah} class="d-block w-100 mx-auto" />
+            <img src={lowongan} class="d-block w-100 mx-auto" />
             <div class="d-none d-md-block" style={{ marginTop: "70px" }}>
               <h5 className="text-white" style={{ fontSize: "30px" }}>
                 Web Sekolah, Yayasan, dan Universitas
@@ -150,9 +149,10 @@ const Konten = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <form id="kontak" style={{ marginTop: "70px" }}>
+
+      <form id="kontak" style={{ marginTop:"70px" }}>
         <div className="text-center text-white mt-4 py-5">
-          <h1 style={{ fontFamily: "Poppins" }}>Hubungi Kami</h1>
+          <h1 style={{ fontFamily: "Poppins", fontWeight:"600", fontSize:"50px"}}>Hubungi Kami</h1>
           <h5 className="text-white-50" style={{ fontFamily: "Roboto" }}>
             Hubungi Kami untuk Konsultasi dan Pembelian serta Seputar Informasi Menarik Lainnya.
           </h5>
@@ -165,25 +165,25 @@ const Konten = () => {
                 <label for="inputEmail3" className="col-3 form-label" style={{ fontFamily: "Roboto" }}>
                   Nama :
                 </label>
-                <input type="text" className="form-control border-secondary border-3" id="inputEmail3" placeholder="Masukkan Nama"></input>
+                <input type="text" className="form-control border-3" id="inputEmail3" placeholder="Masukkan Nama"></input>
               </div>
               <div className="mb-4">
                 <label for="inputEmail3" className="col-3 form-label" style={{ fontFamily: "Roboto" }}>
                   Email :
                 </label>
-                <input type="email" className="form-control border-secondary border-3" id="inputEmail3" placeholder="Masukkan Email"></input>
+                <input type="email" className="form-control border-3" id="inputEmail3" placeholder="Masukkan Email"></input>
               </div>
               <div className="mb-4">
                 <label for="inputEmail3" className="col-3 form-label" style={{ fontFamily: "Roboto" }}>
                   No.Telp :
                 </label>
-                <input type="number" className="form-control border-secondary border-3" id="inputEmail3" placeholder="Masukkan Nomor Telepon"></input>
+                <input type="number" className="form-control border-3" id="inputEmail3" placeholder="Masukkan Nomor Telepon"></input>
               </div>
               <div className="mb-4">
                 <label for="inputEmail3" className="col-3 form-label" style={{ fontFamily: "Roboto" }}>
                   Perusahaan :
                 </label>
-                <input type="text" className="form-control border-secondary border-3" id="inputEmail3" placeholder="Masukkan Perusahaan"></input>
+                <input type="text" className="form-control border-3" id="inputEmail3" placeholder="Masukkan Perusahaan"></input>
               </div>
             </div>
 
@@ -192,13 +192,13 @@ const Konten = () => {
                 <label for="inputEmail3" className="col-3 form-label" style={{ fontFamily: "Roboto" }}>
                   Posisi :
                 </label>
-                <input type="text" className="form-control border-secondary border-3" id="inputEmail3" placeholder="Masukkan Posisi Anda"></input>
+                <input type="text" className="form-control border-3" id="inputEmail3" placeholder="Masukkan Posisi Anda"></input>
               </div>
               <div className="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label" style={{ fontFamily: "Roboto" }}>
                   Message :
                 </label>
-                <textarea class="form-control border-secondary border-3" id="exampleFormControlTextarea1" rows="9" placeholder="Masukkan Pesan"></textarea>
+                <textarea class="form-control border-3" id="exampleFormControlTextarea1" rows="9" placeholder="Masukkan Pesan"></textarea>
               </div>
               <button className="btn btn-primary">Kirim Pesan</button>
             </div>

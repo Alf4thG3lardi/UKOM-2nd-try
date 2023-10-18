@@ -9,9 +9,9 @@ const Keunggulan = () => {
     <div class="container d-flex align-items-center my-5" style={{ height: "100vh" }}>
       <div class="mx-auto">
         <p class="h1 text-white text-center my-5">Keunggulan Website Kami?</p>
-        <h5 className="fst-normal text-center mb-5" style={{ color:'blue', fontSize:'25px'}}>
+        {/* <h5 className="fst-normal text-center mb-5" style={{ color:'blue', fontSize:'25px'}}>
           <span className="text-secondary px-3" style={{fontSize:'20px' }}>Jangan khawatir mengenai spesifikai website Anda. Kami memiliki tim yang akan <br /> menyiapkan website terbaik hingga memperkuat branding bisnis Anda.</span>
-        </h5>
+        </h5> */}
         <div class="d-flex flex-row justify-content-center">
           <div class="border border-primary border-2 rounded-2 me-3 ps-3 pt-4" style={{ width:'25rem', height:'27rem' }}>
             <center>
