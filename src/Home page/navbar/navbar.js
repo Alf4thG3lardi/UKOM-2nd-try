@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-md px-5 fixed-top" style={{ background: "#364a28" }}>
+      <nav class="navbar navbar-expand-md px-5 fixed-top" style={{ background: '#3457AF' }}>
         <div class="container-fluid">
           <Link to="/" class="navbar-brand text-light">
             <img src={logo} width="30" height="30" class="d-inline-block align-text-center" />
@@ -19,12 +19,12 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav active">
               <Link class="nav-link text-light" to="/">
                 Home
               </Link>
               <div class="dropdown">
-                <a style={{ background: "#364a28", border:'none' }} class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <a style={{ background: '#3457AF', border:'none' }} class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                   Features
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
