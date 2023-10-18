@@ -11,7 +11,7 @@ const Pricing = () => {
       <div class="row" style={{paddingTop:"45px"}}>
         <div class="col">
           <div class="card h-100">
-            <h5 class='card-header text-light text-center' style={{background: "#3457AF"}}>EKONOMIS</h5>
+            <h5 class='card-header text-light text-center' style={{background: "#7893D8"}}>EKONOMIS</h5>
             <div class="card-body">
               <h5 class="card-title text-center">Rp 30.000/bulan</h5>
               <ul>
@@ -42,7 +42,7 @@ const Pricing = () => {
         </div>
         <div class="col">
           <div class="card h-100">
-          <h5 class='card-header text-light text-center' style={{background: "#3457AF"}}>BASIC</h5>
+          <h5 class='card-header text-light text-center' style={{background: "#7893D8"}}>BASIC</h5>
             <div class="card-body">
               <h5 class="card-title text-center">Rp 60.000/bulan</h5>
               <ul>
@@ -73,7 +73,7 @@ const Pricing = () => {
         </div>
         <div class="col">
           <div class="card h-100">
-          <h5 class='card-header text-light text-center' style={{background: "#3457AF"}}>PREMIUM</h5>
+          <h5 class='card-header text-light text-center' style={{background: "#7893D8"}}>PREMIUM</h5>
             <div class="card-body">
               <h5 class="card-title text-center">Rp 90.000/bulan</h5>
               <ul>
@@ -107,7 +107,7 @@ const Pricing = () => {
         </div>
         <div class="col">
           <div class="card h-100">
-          <h5 class='card-header text-light text-center' style={{background: "#3457AF"}}>BUSINESS</h5>
+          <h5 class='card-header text-light text-center' style={{background: "#7893D8"}}>BUSINESS</h5>
             <div class="card-body">
               <h5 class="card-title text-center">Rp 170.000/bulan</h5>
               <ul>
@@ -145,7 +145,7 @@ const Pricing = () => {
       <h3 class='' style={{color: "#3457AF"}}>WEB CUSTOM</h3>
       <p class='text-light text-left'>Harga Web Custom adalah fitur utama dalam situs web kami yang ditujukan bagi pengguna yang ingin membuat situs web sesuai dengan kebutuhan dan visi khusus mereka. Kami memahami bahwa setiap proyek web unik, dan itulah mengapa kami menawarkan solusi kustom yang dapat disesuaikan dengan segala kebutuhan. Berikut adalah deskripsi bagian Harga Web Custom*:</p>
       <div class="card h-100">
-          <h5 class='card-header text-light text-center' style={{background: "#3457AF"}}>Pembuatan Website Custom</h5>
+          <h5 class='card-header text-light text-center' style={{background: "#7893D8"}}>Pembuatan Website Custom</h5>
             <div class="card-body">
               <h5 class="card-title text-center">Rp 40.000/bulan</h5>
               <ul>
