@@ -4,9 +4,40 @@ import React from 'react';
 const Pricing = () => {
   return (
     <div class='container'>
-      <h1 class='text-white text-center mb-4 display-4 fw-semibold' style={{paddingTop:"90px"}}>Pricing</h1>
+      <h1 class='text-white text-center mb-4 display-4 fw-semibold' style={{paddingTop:"90px", fontFamily:"Poppins"}}>Pricing</h1>
+
+      <center>
+        <button
+          className="btn btn-primary"
+          onClick={() => {
+            document.getElementById("instant").scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Web Instant
+        </button>
+
+        <button
+          className="btn btn-primary ms-3"
+          onClick={() => {
+            document.getElementById("custom").scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Web Custom
+        </button>
+
+        <button
+          className="btn btn-primary ms-3"
+          onClick={() => {
+            document.getElementById("layanan").scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Tambahan Layanan
+        </button>
+
+        <hr style={{ width: "700px" }} />
+      </center>
       <section style={{paddingTop:"50px"}}>
-      <h3 class='' style={{color: "#3457AF"}}>WEB INSTANT</h3>
+      <h3 id="instant" class='' style={{color: "#3457AF"}}>WEB INSTANT</h3>
       <p class='text-light text-left'>Harga Web Instan adalah salah satu fitur yang sangat penting dalam situs web penyedia jasa pembuatan website. Dalam dunia digital yang terus berkembang, para pengguna yang ingin mendirikan situs web mereka membutuhkan kemudahan dan transparansi dalam menentukan biaya yang diperlukan untuk menghasilkan proyek web mereka. Di bawah ini adalah deskripsi untuk bagian Harga Web Instan pada situs web ini:</p>
       <div class="row" style={{paddingTop:"45px"}}>
         <div class="col">
@@ -142,7 +173,7 @@ const Pricing = () => {
       </div>
       </section>
       <div class="container" style={{paddingTop:"80px"}}>
-      <h3 class='' style={{color: "#3457AF"}}>WEB CUSTOM</h3>
+      <h3 id="custom" class='' style={{color: "#3457AF"}}>WEB CUSTOM</h3>
       <p class='text-light text-left'>Harga Web Custom adalah fitur utama dalam situs web kami yang ditujukan bagi pengguna yang ingin membuat situs web sesuai dengan kebutuhan dan visi khusus mereka. Kami memahami bahwa setiap proyek web unik, dan itulah mengapa kami menawarkan solusi kustom yang dapat disesuaikan dengan segala kebutuhan. Berikut adalah deskripsi bagian Harga Web Custom*:</p>
       <div class="card h-100">
           <h5 class='card-header text-light text-center' style={{background: "#7893D8"}}>Pembuatan Website Custom</h5>
@@ -166,7 +197,7 @@ const Pricing = () => {
           </div>
       </div>
       <section style={{paddingTop:"50px"}}>
-      <h3 class='text-white text-center'>Tambahan Layanan</h3>
+      <h3 id="layanan" class='text-white text-center'>Tambahan Layanan</h3>
       <div class="row" style={{paddingTop:"45px"}}>
         <div class="col">
           <div class="card h-100">
