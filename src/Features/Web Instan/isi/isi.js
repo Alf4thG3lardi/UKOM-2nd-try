@@ -8,10 +8,10 @@ const Isi = () => {
   return (
     <div class="container py-5">
       <div class="row" style={{ marginTop: "110px" }}>
-        <p class="text-white text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "90px" }}>
+        <p class="text-secondary text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "90px" }}>
           Website{" "}
-          <span class="text-success text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "90px" }}>
-            Instan
+          <span class="text-white text-center" style={{ fontFamily: "Poppins", fontWeight: "900", fontSize: "90px" }}>
+            Instant
           </span>
         </p>
       </div>
@@ -55,16 +55,16 @@ const Isi = () => {
             Jasa Pembuatan
           </p>
           <p class="display-5" style={{ fontFamily: "Poppins", fontSize: "50px", fontWeight: "400" }}>
-            Website Instan
+            Website Instant
           </p>
           <p class="lead" style={{ fontFamily: "Poppins", fontSize: "20px" }}>
-            Situs web instan adalah suatu website yang dibuat menggunakan template yang sudah ada. Anda dapat memilih tema yang Anda suka. Akan ada banyak template yang bisa anda pilih. Jika Anda bingung menentukan bagaimana konsep website yang ingin Anda wujudkan. Atau fitur-fitur apa saja yang akan Anda sertakan dalam website Anda. Silahkan hubungi Kami dan tanyakan semua pertanyaan untuk Kami dan Kami akan berikan rekomendasi dan solusi yang terbaik untuk Anda. Dapatkan hal-hal yang luar biasa dari Kami. Kami tunggu kehadiran Anda di notifikasi. Sampai Jumpa.
+            Situs web instant adalah suatu website yang dibuat menggunakan template yang sudah ada. Anda dapat memilih tema yang Anda suka. Akan ada banyak template yang bisa anda pilih. Jika Anda bingung menentukan bagaimana konsep website yang ingin Anda wujudkan. Atau fitur-fitur apa saja yang akan Anda sertakan dalam website Anda. Silahkan hubungi Kami dan tanyakan semua pertanyaan untuk Kami dan Kami akan berikan rekomendasi dan solusi yang terbaik untuk Anda. Dapatkan hal-hal yang luar biasa dari Kami. Kami tunggu kehadiran Anda di notifikasi. Sampai Jumpa.
           </p>
         </div>
       </div>
 
       <div id="fitur" class="container-fluid text-center text-white py-5 border-bottom" style={{ height: "fit-content", fontFamily: "Roboto", marginTop: "70px", marginBottom: "100px" }}>
-        <p class="h1 mb-5 text-center" style={{ fontSize:"50px" }}> Fitur Website Instan</p>
+        <p class="h1 mb-5 text-center" style={{ fontSize:"50px" }}> Fitur Website Instant</p>
         <div class="row">
           <div class="col-md-4 mx-auto" style={{ marginBottom: "70px" }}>
             <p class="h2 text-primary">
@@ -94,20 +94,20 @@ const Isi = () => {
       </div>
 
       <div id="pilihan" class="row align-items-center" style={{ marginTop: "70px", marginRight: "70px" }}>
-        <h1 className="text-success text-left mb-5" style={{ fontFamily: "Poppins", fontWeight: "600", fontSize:"60px"}}>
+        <h1 className="text-white text-left mb-5" style={{ fontFamily: "Poppins", fontWeight: "600", fontSize:"60px"}}>
           Web yang Bisa Jadi Pilihanmu!
         </h1>
       </div>
 
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div id="carouselExampleLight" class="carousel carousel-light slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src={bisnis} class="d-block w-100 mx-auto" />
+            <img src={bisnis} class="d-block w-100 mx-auto" style={{filter: "brightness(80%)"}}/>
             <div class="d-none d-md-block" style={{ marginTop: "70px" }}>
               <h5 className="text-white" style={{ fontSize: "30px" }}>
                 Web Bisnis Online
@@ -118,7 +118,7 @@ const Isi = () => {
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src={klinik} class="d-block w-100 mx-auto" />
+            <img src={klinik} class="d-block w-100 mx-auto" style={{filter: "brightness(80%)"}}/>
             <div class="d-none d-md-block" style={{ marginTop: "70px" }}>
               <h5 className="text-white" style={{ fontSize: "30px" }}>
                 Web Klinik
@@ -129,7 +129,7 @@ const Isi = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={cv} class="d-block w-100 mx-auto" />
+            <img src={cv} class="d-block w-100 mx-auto" style={{filter: "brightness(80%)"}}/>
             <div class="d-none d-md-block" style={{ marginTop: "70px" }}>
               <h5 className="text-white" style={{ fontSize: "30px" }}>
                 Web Daftar Riwayat Hidup
@@ -140,11 +140,11 @@ const Isi = () => {
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
