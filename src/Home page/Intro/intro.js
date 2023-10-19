@@ -1,6 +1,8 @@
 import React from 'react';
 import "./intro.css";
-import bg from '../../assets/bg.jpg';
+import bg1 from '../../assets/bg-1.jpg';
+import bg2 from '../../assets/bg-2.jpg';
+import bg3 from '../../assets/bg-3.jpg';
 
 const Intro = () => {
   return (
@@ -13,7 +15,7 @@ const Intro = () => {
         </div>  
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src={bg} class="d-block w-100 introimg"  alt="first img"/>
+            <img src={bg1} class="d-block w-100 introimg"  alt="first img" style={{filter: "brightness(50%)"}}/>
             <div class="carousel-caption text-start text-white">
               <h2 style={{fontFamily:"Poppins", fontSize:"70px", fontWeight:"900", paddingTop:"10px"}}>Jasa Pembuatan Website</h2>
               <h4 style={{fontFamily:"Roboto", fontSize:"30px", fontWeight:"400"}}>Kami Adalah Pilihan yang Tepat dan Terbaik Anda!</h4>
@@ -23,19 +25,23 @@ const Intro = () => {
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src={bg} class="d-block w-100 introimg" alt="second img"/>
+            <img src={bg2} class="d-block w-100 introimg" alt="second img" style={{filter: "brightness(50%)"}}/>
             <div class="carousel-caption text-center text-white">
               <p class='fs-1'>Second slide label</p>
               <p class='fs-5'>Some representative placeholder content for the second slide.</p>
-              <button type="button" class="btn btn-primary">Contact us</button>
             </div>
           </div>
           <div class="carousel-item">
-            <img src={bg} class="d-block w-100 introimg" alt="third img"/>
+            <img src={bg3} class="d-block w-100 introimg" alt="third img" style={{filter: "brightness(50%)"}}/>
             <div class="carousel-caption text-end text-white">
               <p class='fs-1'>Third slide label</p>
               <p class='fs-5'>Some representative placeholder content for the third slide.</p>
-              <button type="button" class="btn btn-primary">Portofolio</button>
+              <div>
+                <a href="/portofolio">
+                <button type="submit" class="btn btn-primary"> Portofolio
+              </button>
+                </a>
+              </div>
 
             </div>
           </div>
