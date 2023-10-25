@@ -4,7 +4,7 @@ import React from 'react';
 const Pricing = () => {
   return (
     <div class='container'>
-      <h1 class='text-white text-center mb-4 display-4 fw-semibold' style={{paddingTop:"90px", fontFamily:"Poppins"}}>Pricing</h1>
+      <h1 class='text-white text-center mb-4 display-4 fw-semibold' style={{paddingTop:"140px", fontFamily:"Poppins"}}>Pricing</h1>
 
       <center>
         <button
@@ -69,6 +69,10 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
+            <button className='btn btn-dark'>
+            <a href="/whatsapp" className='text-white' style={{ textDecoration:'none' }}>
+            Order Sekarang</a>
+            </button>
           </div>
         </div>
         <div class="col">
@@ -100,6 +104,10 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
+            <button className='btn btn-dark'>
+            <a href="/whatsapp" className='text-white' style={{ textDecoration:'none' }}>
+            Order Sekarang</a>
+            </button>
           </div>
         </div>
         <div class="col">
@@ -134,6 +142,10 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
+            <button className='btn btn-dark'>
+            <a href="/whatsapp" className='text-white' style={{ textDecoration:'none' }}>
+            Order Sekarang</a>
+            </button>
           </div>
         </div>
         <div class="col">
@@ -168,6 +180,10 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
+            <button className='btn btn-dark'>
+            <a href="/whatsapp" className='text-white' style={{ textDecoration:'none' }}>
+            Order Sekarang</a>
+            </button>
           </div>
         </div>
       </div>
@@ -194,6 +210,10 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
+            <button className='btn btn-dark' style={{ width:'1270px' }}>
+            <a href="/whatsapp" className='text-white' style={{ textDecoration:'none' }}>
+            Order Sekarang</a>
+            </button>
           </div>
       </div>
       <section style={{paddingTop:"50px"}}>
@@ -260,6 +280,8 @@ const Pricing = () => {
         </div>
       </div>
       </section>
+      
+      <button className='btn btn-dark mx-auto border border-light text-center align-items-center text-white' style={{ width:'210px', marginTop:'20px'}}> <a href="/whatsapp" className='text-white' style={{ textDecoration:'none' }}>Konsultasi via WhatsApp</a></button>
       </div>
       <p class='text-danger' style={{paddingTop:"50px"}}>*Syarat dan Ketentuan Berlaku</p>
       <section class='text-light'>

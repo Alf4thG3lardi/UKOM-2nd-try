@@ -14,6 +14,7 @@ import Review from './Home page/review/review';
 import Isi from './Features/Web Instan/isi/isi';
 import Konten from './Features/Web Custom/konten/konten';
 import Pricing from './Home page/pricing/pricing';
+import WhatsApp from './whatsapp/whatsapp';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/web/instan' element={<><Navbar/><Isi/><Footer/></>}></Route>
           <Route path='/web/custom' element={<><Navbar/><Konten/><Footer/></>}></Route>
           <Route path='/pricing' element={<><Navbar/><Pricing/><Footer/></>}></Route>
+          <Route path='/whatsapp' element={<><Navbar/><WhatsApp/><Footer/></>}></Route>
         </Routes>
       </BrowserRouter>
       

@@ -46,7 +46,7 @@ const Konten = () => {
         <hr style={{ width: "700px" }} />
       </center>
 
-      <div id="pengertian" class="row align-items-center border-bottom" style={{ marginTop: "70px", marginBottom: "70px" }}>
+      <div id="pengertian" class="row align-items-center border-bottom">
         <div class="col-md-7 mx-auto my-5">
           <img src={logo} style={{ width: "600px", height: "600px" }} />
         </div>

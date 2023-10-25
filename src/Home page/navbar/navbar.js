@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logoo.png";
+import logo from '../../assets/logo final.png';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -8,8 +8,7 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-md px-5 fixed-top" style={{ background: '#3457AF' }}>
         <div class="container-fluid">
           <Link to="/" class="navbar-brand text-light">
-            <img src={logo} width="50" height="50" class="d-inline-block align-text-center" />
-            Navbar
+            <img src={logo} width="99" height="45" class="d-inline-block align-text-center"/>
           </Link>
           {/* <a class="navbar-brand text-light" href="#">
             <img src={logo} width="30" height="30" class="d-inline-block align-text-center"/> 
@@ -24,7 +23,7 @@ const Navbar = () => {
                 Home
               </Link>
               <div class="dropdown">
-                <a style={{ background: '#3457AF', border:'none' }} class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <a style={{ background: '#3457AF', border:'none' }} class="btn btn-secondary dropdown-toggle pt-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                   Website
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -49,7 +48,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <button type="button" class="btn btn-light text-center" style={{ background: "#c4cfd4" }} onClick={() => {
+          <button type="button" class="btn btn-light text-center" style={{ borderRadius:'70px' }}  onClick={() => {
             document.getElementById("kontak").scrollIntoView({ behavior: "smooth" });
           }}>
             <i class="bi bi-telephone text-dark pe-2"></i>Contact

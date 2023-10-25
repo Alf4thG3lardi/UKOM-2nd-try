@@ -21,6 +21,7 @@ const Portofolliopage = () => {
                 <div class="card-body">
                     <h5 class="card-title">Web Name</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn text-white" style={{background: "#0e2c48"}}>Visit website</a>
                 </div>
               </div>
             </div>
@@ -33,6 +34,7 @@ const Portofolliopage = () => {
                 <div class="card-body">
                     <h5 class="card-title">Web Name</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn text-white" style={{background: "#0e2c48"}}>Visit website</a>
                 </div>
               </div>
             </div>
@@ -48,6 +50,7 @@ const Portofolliopage = () => {
                 <div class="card-body">
                     <h5 class="card-title">Web Name</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn text-white" style={{background: "#0e2c48"}}>Visit website</a>
                 </div>
               </div>
             </div>
@@ -60,6 +63,7 @@ const Portofolliopage = () => {
                 <div class="card-body">
                     <h5 class="card-title">Web Name</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn text-white" style={{background: "#0e2c48"}}>Visit website</a>
                 </div>
               </div>
             </div>

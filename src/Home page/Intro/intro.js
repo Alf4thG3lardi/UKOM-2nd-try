@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import "./intro.css";
-import bg1 from '../../assets/bg-1.jpg';
-import bg2 from '../../assets/bg-2.jpg';
-import bg3 from '../../assets/bg-3.jpg';
+import bg1 from "../../assets/bg-1.png";
+import bg2 from "../../assets/bg-2.png";
+import bg3 from "../../assets/bg-3.png";
 
 const Intro = () => {
   return (
@@ -12,37 +12,44 @@ const Intro = () => {
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>  
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src={bg1} class="d-block w-100 introimg"  alt="first img" style={{filter: "brightness(50%)"}}/>
+            <img src={bg3} class="d-block w-100 introimg" alt="first img" style={{ filter: "brightness(50%)" }} />
             <div class="carousel-caption text-start text-white">
-              <h2 style={{fontFamily:"Poppins", fontSize:"70px", fontWeight:"900", paddingTop:"10px"}}>Jasa Pembuatan Website</h2>
-              <h4 style={{fontFamily:"Roboto", fontSize:"30px", fontWeight:"400"}}>Kami Adalah Pilihan yang Tepat dan Terbaik Anda!</h4>
-              <p>Platform dengan pembuatan website yang cepat dan terpercaya. <br /> Anda bisa stalking website kami untuk informasi lebih lengkap!
+              <h2 style={{ fontFamily: "Poppins", fontSize: "50px", fontWeight: "900"}}>
+                {" "}
+                <span>Jasa Pembuatan Website</span>{" "}
+              </h2>
+              <h4 style={{ fontFamily: "Poppins", fontWeight: "600", paddingTop: "2px" }}>Proses Cepat, Tepat, dan Berkualitas!</h4>
+              <p className="text-white">
+                <span className="mb-4" style={{ fontFamily:'Poppins' }}>
+                Platform dengan pembuatan website yang cepat dan terpercaya. <br /> Anda bisa stalking website kami untuk informasi lebih lengkap!
+                </span>
               </p>
               {/* <button type="button" class="btn btn-primary">Learn more</button> */}
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src={bg2} class="d-block w-100 introimg" alt="second img" style={{filter: "brightness(50%)"}}/>
+            <img src={bg2} class="d-block w-100 introimg" alt="second img" style={{ filter: "brightness(70%)" }} />
             <div class="carousel-caption text-center text-white">
-              <p class='fs-1'>Second slide label</p>
-              <p class='fs-5'>Some representative placeholder content for the second slide.</p>
+              <h4 style={{ fontFamily: "Roboto", fontSize: "30px", fontWeight: "400" }}>Kami Adalah Pilihan yang Tepat dan Terbaik Anda!</h4>
             </div>
           </div>
           <div class="carousel-item">
-            <img src={bg3} class="d-block w-100 introimg" alt="third img" style={{filter: "brightness(50%)"}}/>
+            <img src={bg1} class="d-block w-100 introimg" alt="third img" style={{ filter: "brightness(50%)" }} />
             <div class="carousel-caption text-end text-white">
-              <p class='fs-1'>Third slide label</p>
-              <p class='fs-5'>Some representative placeholder content for the third slide.</p>
               <div>
+              <h4 className="pb-5">
+                Tekan tombol di bawah untuk melihat karya-karya kami!
+              </h4>
                 <a href="/portofolio">
-                <button type="submit" class="btn btn-primary"> Portofolio
-              </button>
+                  <button type="submit" class="btn btn-primary">
+                    {" "}
+                    Portofolio
+                  </button>
                 </a>
               </div>
-
             </div>
           </div>
         </div>
@@ -56,7 +63,7 @@ const Intro = () => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;
